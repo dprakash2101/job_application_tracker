@@ -80,4 +80,4 @@ const JobApplicationSchema = new Schema<IJobApplication>({
 
 const JobApplication = model<IJobApplication>('JobApplication', JobApplicationSchema);
 
-export default JobApplication;
+export { JobApplication, IJobApplication };
